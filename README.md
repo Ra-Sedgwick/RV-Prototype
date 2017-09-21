@@ -1,6 +1,19 @@
 MarkupProject
 =============
 
+Roberts Instructions
+====================
+
+Platform
+---------
+* Windows / Visual Studio 2017
+* Language: C# / ASP.NET 4.6.1
+* Solution is broken into a Web API back end, Single Page Application front end.
+* Database: SQL Server
+
+
+Setup
+
 Info
 ----
 Create a class in the language of your choice that will read HTML content input and score and give
