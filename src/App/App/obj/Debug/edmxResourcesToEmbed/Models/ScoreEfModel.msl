@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScoreModelStoreContainer" CdmEntityContainer="SocresEntities">
+    <EntitySetMapping Name="scores">
+      <EntityTypeMapping TypeName="ScoreModel.score">
+        <MappingFragment StoreEntitySet="scores">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="content_id" ColumnName="content_id" />
+          <ScalarProperty Name="score1" ColumnName="score" />
+          <ScalarProperty Name="time_stamp" ColumnName="time_stamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SelectAverageScore" FunctionName="ScoreModel.Store.SelectAverageScore" />
+  </EntityContainerMapping>
+</Mapping>

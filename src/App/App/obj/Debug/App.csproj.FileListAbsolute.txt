@@ -71,3 +71,7 @@ C:\Users\rased\projects\MarkupProject\src\App\App\bin\Microsoft.AI.Web.xml
 C:\Users\rased\projects\MarkupProject\src\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
 C:\Users\rased\projects\MarkupProject\src\App\App\obj\Debug\App.dll
 C:\Users\rased\projects\MarkupProject\src\App\App\obj\Debug\App.pdb
+C:\Users\rased\projects\MarkupProject\src\App\App\bin\EntityFramework.dll
+C:\Users\rased\projects\MarkupProject\src\App\App\bin\EntityFramework.SqlServer.dll
+C:\Users\rased\projects\MarkupProject\src\App\App\bin\EntityFramework.xml
+C:\Users\rased\projects\MarkupProject\src\App\App\bin\EntityFramework.SqlServer.xml

@@ -15,9 +15,9 @@ namespace App.Models
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class SocresEntities : DbContext
+    public partial class ScoreEntities : DbContext
     {
-        public SocresEntities()
+        public ScoreEntities()
             : base("name=SocresEntities")
         {
         }
