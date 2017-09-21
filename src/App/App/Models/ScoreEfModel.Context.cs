@@ -29,9 +29,12 @@ namespace App.Models
     
         public virtual DbSet<score> scores { get; set; }
     
-        public virtual ObjectResult<Nullable<decimal>> SelectAverageScore()
+        public virtual decimal SelectAverageScore()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<decimal>>("SelectAverageScore");
+            return (decimal) ((IObjectContextAdapter)this)
+                .ObjectContext
+                .ExecuteFunction<Nullable<decimal>>("SelectAverageScore")
+                .FirstOrDefault();
         }
     }
 }
